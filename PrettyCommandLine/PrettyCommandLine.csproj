@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net45;netstandard2.0;net8.0-android;net8.0</TargetFrameworks>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Pretty Simple Console CommandLine Handler</Title>
+    <Authors>arayeji</Authors>
+    <Version>1.0.0.10</Version>
+    <FileVersion>1.0.0.10</FileVersion>
+    <AssemblyVersion>1.0.0.10</AssemblyVersion>
+  </PropertyGroup>
+
+</Project>
