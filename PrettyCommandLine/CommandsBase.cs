@@ -97,7 +97,10 @@ namespace PrettyCommandLine
             List<string> Result = new List<string>();
 
             if (Variables.Count > 0)
-                Result.AddRange(new List<string> { Command + "\r\n" + string.Join(", ", Variables.Select(x => "(" + x.Name + " : " + x.DataType.Name + ")").ToList()) });
+                Result.AddRange(new List<string> { Command+" \r\nUsage:\r\n"+
+                   (Parent !=  null ? string.Join(" ", Parent.GetPath())+" ": "")+ Command+" "+string.Join(" ", Variables.Select(x => "--" + x.Name + " $" + x.Name + "").ToList())+"\r\n"+
+                   (Parent !=  null ? string.Join(" ", Parent.GetPath())+" ": "")+ Command+" "+string.Join(" ", Variables.Select(x => " $" + x.Name + "").ToList())
+                    + "\r\n" + string.Join(", ", Variables.Select(x => "(--" + x.Name + " : " + x.DataType.Name + ")").ToList()) +"\r\n"});
             else if (SubCommands.Count == 0)
                 Result.Add(  Command);
              

@@ -113,8 +113,6 @@ namespace PrettyCommandLine
                 var variables = ParseArguments(e.Command).ToArray();
                 var inputData = ParseInput(variables);
                 Commands.ForEach(x => x.CheckAndExecute(inputData, CurrentMode));
-
-                //Commands.ForEach(x => x.CheckAndExecute(variables, CurrentMode));
             }
 
             if (!Exiting)
