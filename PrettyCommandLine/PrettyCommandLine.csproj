@@ -7,9 +7,18 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Pretty Simple Console CommandLine Handler</Title>
     <Authors>arayeji</Authors>
-    <Version>1.0.0.10</Version>
-    <FileVersion>1.0.0.10</FileVersion>
-    <AssemblyVersion>1.0.0.10</AssemblyVersion>
+    <Version>1.0.0.11</Version>
+    <FileVersion>1.0.0.11</FileVersion>
+    <AssemblyVersion>1.0.0.11</AssemblyVersion>
+    <PackageTags>Command;Command Line;CommandLine;CMD;Console;</PackageTags>
+	<PackageIcon>icon.png</PackageIcon>
+	 <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
+  <ItemGroup>
+      <None Include="LICENSE.txt" Pack="true" PackagePath=""/>
+	  <None Include="icon.png" Pack="true" PackagePath=""/>
+	  <None Include="README.md" Pack="true" PackagePath=""/>
+  </ItemGroup>
 
 </Project>

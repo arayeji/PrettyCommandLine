@@ -5,12 +5,12 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrettyCommandLine", "PrettyCommandLine\PrettyCommandLine.csproj", "{EA0DB99E-CB3F-4314-9DE3-2B7B746F22A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrettyCommandLineExample", "PrettyCommandLineExample\PrettyCommandLineExample.csproj", "{C83A361F-119C-49F7-B4CD-2027CEF812A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrettyCommandLineExample", "PrettyCommandLineExample\PrettyCommandLineExample.csproj", "{C83A361F-119C-49F7-B4CD-2027CEF812A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU 
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EA0DB99E-CB3F-4314-9DE3-2B7B746F22A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
